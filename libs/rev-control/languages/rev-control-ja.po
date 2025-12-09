@@ -1,0 +1,121 @@
+# Translation of Plugins - WP Revisions Control - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WP Revisions Control - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-06-19 07:28:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP Revisions Control - Stable (latest release)\n"
+
+#: inc/class-wp-revisions-control.php:431
+#: inc/class-wp-revisions-control.php:443
+msgid "No revisions to remove."
+msgstr "削除するリビジョンはありません。"
+
+#. translators: 1. Number of removed revisions, already formatted for locale.
+#: inc/class-wp-revisions-control.php:401
+msgid "Removed %1$s revisions associated with this post."
+msgstr "この投稿のリビジョン%1$s件を削除しました。"
+
+#: inc/class-wp-revisions-control.php:369
+msgid "You are not allowed to edit this post."
+msgstr "投稿の編集権限がありません。"
+
+#: inc/class-wp-revisions-control.php:367
+msgid "Invalid request. Please refresh the page and try again."
+msgstr "不正なリクエスト。ページを再表示した後やり直してください。"
+
+#: inc/class-wp-revisions-control.php:365
+msgid "No post ID was provided. Please refresh the page and try again."
+msgstr "投稿 ID が不明。ページを再表示した後やり直してください。"
+
+#. translators: 1. Text input field.
+#: inc/class-wp-revisions-control.php:340
+msgid "Limit this post to %1$s revisions. Leave this field blank for default behavior."
+msgstr "この投稿のリビジョンを %1$s 個に制限。空にするとデフォルト値。"
+
+#: inc/class-wp-revisions-control.php:334
+msgid "Purge these revisions"
+msgstr "これらのリビジョンを削除"
+
+#: inc/class-wp-revisions-control.php:314
+msgid "An error occurred. Please refresh the page and try again."
+msgstr "エラーが発生。ページを再表示した後やり直してください。"
+
+#: inc/class-wp-revisions-control.php:313
+msgid "There are no revisions to remove."
+msgstr "削除するリビジョンがありません。"
+
+#: inc/class-wp-revisions-control.php:312
+msgid "Autosave"
+msgstr "自動保存"
+
+#: inc/class-wp-revisions-control.php:311
+msgid "Are you sure you want to remove revisions from this post?"
+msgstr "この投稿からリビジョンを削除してよろしいですか ?"
+
+#: inc/class-wp-revisions-control.php:310
+msgid "Processing&hellip;"
+msgstr "処理中&hellip;"
+
+#: inc/class-wp-revisions-control.php:278
+msgid "Revisions"
+msgstr "リビジョン"
+
+#. translators: 1. Filter tag.
+#: inc/class-wp-revisions-control.php:150
+msgid "A local change is causing this plugin's functionality to run at a priority other than the default. If you experience difficulties with the plugin, please unhook any functions from the %1$s filter."
+msgstr "ローカルでの変更により、このプラグインの機能がデフォルト以外の優先度で実行されます。このプラグインで問題が発生した場合は、フィルター %1$s にフックされた関数をすべて削除してください。"
+
+#: inc/class-wp-revisions-control.php:139
+msgid "If a post type isn't listed, revisions are not enabled for that post type."
+msgstr "表示されていない投稿タイプはリビジョンが有効ではありません。"
+
+#: inc/class-wp-revisions-control.php:138
+msgid "Set the number of revisions to save for each post type listed. To retain all revisions for a given post type, leave the field empty."
+msgstr "投稿タイプごとに残すリビジョン数を設定してください。すべてのリビジョンを残すには空にします。"
+
+#: inc/class-wp-revisions-control-bulk-actions.php:260
+msgid "WP Revisions Control encountered an unspecified error."
+msgstr "WP Revisions Control は不明なエラーに遭遇しました。"
+
+#: inc/class-wp-revisions-control-bulk-actions.php:249
+msgid "Purged excess revisions."
+msgstr "超過したリビジョンを削除しました。"
+
+#: inc/class-wp-revisions-control-bulk-actions.php:242
+msgid "Purged all revisions."
+msgstr "すべてのリビジョンを削除しました。"
+
+#: inc/class-wp-revisions-control-bulk-actions.php:64
+msgid "Purge ALL revisions"
+msgstr "「すべての」リビジョンを削除"
+
+#: inc/class-wp-revisions-control-bulk-actions.php:59
+#: assets/build/gutenberg.js:3
+msgid "Purge excess revisions"
+msgstr "超過したリビジョンを削除"
+
+#: inc/class-block-editor.php:58
+msgid "Number of revisions to retain."
+msgstr "残すリビジョンの数。"
+
+#. Author URI of the plugin
+msgid "https://ethitter.com/"
+msgstr "https://ethitter.com/"
+
+#. Author of the plugin
+msgid "Erick Hitter"
+msgstr "Erick Hitter"
+
+#. Description of the plugin
+msgid "Control how many revisions are stored for each post type"
+msgstr "投稿タイプごとに残すリビジョン数を制御"
+
+#. Plugin URI of the plugin
+msgid "https://ethitter.com/plugins/wp-revisions-control/"
+msgstr "https://ethitter.com/plugins/wp-revisions-control/"

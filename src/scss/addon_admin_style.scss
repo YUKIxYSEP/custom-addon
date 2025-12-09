@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+/* 管理画面用CSSをここに記述する */
+
+/**  
+ * ツールバー
+ */
+#wpadminbar #wp-admin-bar-customize > .ab-item:before {
+  content: '\f107';
+}
+
+.add-icon {
+  top: 2px;
+}
+
+/**  
+ * カスタムウィジェット
+ */
+ul.custom_widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; /* FlexBoxを適用 */
+  /* clear: both;
+  overflow: hidden; */
+
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; /* 子要素が入りきらない場合は自動改行 */
+}
+.custom_widget li {
+  float: left;
+
+  margin: 10px;
+
+  text-align: center;
+
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 180px;
+  flex: 1 0 180px;
+}
+.custom_widget a {
+  display: block;
+
+  padding: 10px 20px 30px;
+  /* border: 2px solid rgba(0, 0, 0, 0.1); */
+  border-radius: 10px;
+
+  color: #559f00;
+  border-radius: 10px;
+  /* background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#2af598),
+    to(#009efd)
+  ); */
+  /* background-image: -o-linear-gradient(left, #2af598 0%, #009efd 100%);
+  background-image: linear-gradient(to right, #2af598 0%, #009efd 100%); */
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.custom_widget a:hover {
+  color: #696969;
+  /* background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#2af598),
+    to(#009efd)
+  ); */
+  /* background-image: -o-linear-gradient(left, #2af598 0%, #009efd 100%);
+  background-image: linear-gradient(90deg, #2af598 0%, #009efd 100%); */
+  -webkit-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.custom_widget .dashicons {
+  font-size: 80px;
+
+  display: block;
+
+  width: 80px;
+  height: 80px;
+  margin: 10px auto 0;
+  padding: 5px;
+
+  border-radius: 10px;
+}
+.custom_widget p {
+  font-size: 18px;
+  font-weight: bold;
+
+  margin-top: 0.5em;
+  margin-bottom: 0;
+}
+
+.custom_widget p,
+.custom_widget .dashicons {
+  transition: all 0.3s;
+}
